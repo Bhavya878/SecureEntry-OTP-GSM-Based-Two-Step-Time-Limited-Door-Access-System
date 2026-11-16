@@ -147,7 +147,7 @@ SecureEntry-OTP/
 │
 ├── projectmain.c
 │
-├── system_block_diagram.png
+├── Block_diagram-system.png
 │
 └── README.md
 
