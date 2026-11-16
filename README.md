@@ -13,6 +13,7 @@
 - 📂 Repository Structure
 - 🌍 Applications
 - 🚀 Future Enhancements
+- 👤 Author
 
 ## 📖 Project Overview
 
