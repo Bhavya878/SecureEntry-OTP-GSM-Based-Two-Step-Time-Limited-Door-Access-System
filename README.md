@@ -1,14 +1,5 @@
 # 🔐 SecureEntry OTP – GSM-Based Two-Step Time-Limited Door Access System
 
-<p align="center">
-
-  ![Embedded C](https://img.shields.io/badge/Language-Embedded%20C-blue?style=for-the-badge)
-  ![Domain](https://img.shields.io/badge/Domain-Embedded%20Systems-green?style=for-the-badge)
-  ![Security](https://img.shields.io/badge/Security-OTP%20Authentication-red?style=for-the-badge)
-  ![Communication](https://img.shields.io/badge/Communication-GSM-orange?style=for-the-badge)
-
-</p>
-
 ## 📌 Table of Contents
 
 - 📖 Project Overview
@@ -22,8 +13,6 @@
 - 📂 Repository Structure
 - 🌍 Applications
 - 🚀 Future Enhancements
-
----
 
 ## 📖 Project Overview
 
@@ -46,14 +35,7 @@ The system integrates a microcontroller, GSM module, LCD display, keypad, Real-T
 - 🛡️ To improve security and reliability in door access systems.
 
 ## 🏗️ Block Diagram
-
-The system consists of a microcontroller interfaced with GSM, keypad, LCD, RTC, EEPROM, and door control components.
-
-### System Block Diagram
-
-![SecureEntry OTP Block Diagram](system_block_diagram.png)
-
-> 📌 Add your actual project block diagram to this repository using the filename `system_block_diagram.png`.
+![Block Diagram](./Block_diagram-system.png)
 
 ## ⚙️ System Architecture
 
@@ -119,25 +101,40 @@ The system operates through the following sequence:
 
 ## 📂 Repository Structure
 
-The repository contains Embedded C source files and header files organized according to their functionality.
-
-| File | Description |
-|---|---|
-| `main.c` | Main application program |
-| `gsm.c`, `gsm.h` | 📱 GSM communication |
-| `otp.c`, `otp.h` | 🔑 OTP operations |
-| `Keypad.c`, `kpm.h` | 🔢 Keypad interfacing |
-| `lcd.c`, `lcd.h` | 🖥️ LCD interfacing |
-| `rtc.c`, `rtc.h` | ⏰ RTC operations |
-| `spi.c`, `spi.h` | 🔄 SPI communication |
-| `spi_eeprom.c`, `spi_eeprom.h` | 💾 EEPROM interfacing |
-| `door.c`, `door.h` | 🚪 Door control |
-| `eint.c`, `eint.h` | ⚡ External interrupt handling |
-| `switch.c`, `switch.h` | 🔘 Switch interfacing |
-| `user.c`, `user.h` | 👤 User-related operations |
-| `uart.c`, `uart.h` | 📡 UART communication |
-| `defines.h`, `types.h` | 📋 Common definitions and data types |
-
+SecureEntry-OTP/
+│
+├── delay.c
+├── delay.h
+├── gsm.c
+├── gsm.h
+├── keypad.c
+├── keypad.h
+├── lcd.c
+├── lcd.h
+├── uart.c
+├── uart.h
+├── spi.c
+├── spi.h
+├── spi_eeprom.c
+├── spi_eeprom.h
+├── rtc.c
+├── rtc.h
+├── otp.c
+├── otp.h
+├── user.c
+├── user.h
+├── door.c
+├── door.h
+├── switch.c
+├── switch.h
+├── eint.c
+├── eint.h
+├── defines.h
+├── types.h
+├── projectmain.c
+├── system_block_diagram.png
+│
+└── README.md
 ## 🌍 Applications
 
 - 🏠 Residential door security systems.
@@ -154,24 +151,10 @@ The repository contains Embedded C source files and header files organized accor
 - 📊 Access attempt logging and monitoring.
 - 🔐 Enhanced OTP generation and security mechanisms.
 
----
+## 👤 Author
 
-## 👩‍💻 Project Information
+**Bhavya Palloli**
 
-| Category | Details |
-|---|---|
-| 📌 Project Title | SecureEntry OTP – GSM-Based Two-Step Time-Limited Door Access System |
-| 🎓 Domain | Embedded Systems |
-| 💻 Programming Language | Embedded C |
-| 🧠 Controller | Add your exact microcontroller model |
-| 👩‍💻 Author | Bhavya Palloli |
+Electronics and Communication Engineering (ECE)
 
----
-
-<p align="center">
-
-  **🔐 Secure Access | 📱 GSM Communication | ⏱️ Time-Based Authentication**
-
-  *Designed to make door access smarter and more secure.*
-
-</p>
+**Technologies:** Embedded C | ARM7 | GSM | UART | RTC | SPI EEPROM (AT25LC512) | LCD Interfacing | 4×4 Keypad Interfacing | External Interrupts | GSM AT Commands | OTP Authentication | L293D Motor Driver | DC Motor Control 
