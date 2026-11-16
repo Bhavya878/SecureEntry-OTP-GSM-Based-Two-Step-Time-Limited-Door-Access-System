@@ -105,36 +105,52 @@ SecureEntry-OTP/
 │
 ├── delay.c
 ├── delay.h
+│
 ├── gsm.c
 ├── gsm.h
+│
 ├── keypad.c
 ├── keypad.h
+│
 ├── lcd.c
 ├── lcd.h
+│
 ├── uart.c
 ├── uart.h
+│
 ├── spi.c
 ├── spi.h
+│
 ├── spi_eeprom.c
 ├── spi_eeprom.h
+│
 ├── rtc.c
 ├── rtc.h
+│
 ├── otp.c
 ├── otp.h
+│
 ├── user.c
 ├── user.h
+│
 ├── door.c
 ├── door.h
+│
 ├── switch.c
 ├── switch.h
+│
 ├── eint.c
 ├── eint.h
+│
 ├── defines.h
 ├── types.h
+│
 ├── projectmain.c
+│
 ├── system_block_diagram.png
 │
 └── README.md
+
 ## 🌍 Applications
 
 - 🏠 Residential door security systems.
